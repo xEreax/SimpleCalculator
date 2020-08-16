@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script src="buttons.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="displayContainer">
+                <textarea class="display" id="calcDisplay" readonly rows="1" cols="30"></textarea>
+            </div>
+            <div class="btnContainer">
+                <button class="btn" onclick="display(this)">+</button>
+                <button class="btn" onclick="display(this)">-</button>
+                <button class="btn" onclick="display(this)">*</button>
+                <button class="btn" onclick="display(this)">/</button>
+                    <button class="btn" onclick="display(this)">1</button>
+                    <button class="btn" onclick="display(this)">2</button>
+                    <button class="btn" onclick="display(this)">3</button>
+                    <button class="btn" onclick="display(this)">4</button>
+                    <button class="btn" onclick="display(this)">5</button>
+                    <button class="btn" onclick="display(this)">6</button>
+                    <button class="btn" onclick="display(this)">7</button>
+                    <button class="btn" onclick="display(this)">8</button>
+                    <button class="btn" onclick="display(this)">9</button>
+                    <button class="btn" onclick="display(this)">0</button>   
+                    <button class="btn decimal" onclick="display(this)">.</button>
+                    <button class="btn bracket1" onclick="display(this)">(</button>
+                    <button class="btn bracket2" onclick="display(this)">)</button>
+                    <button class="btn clearAllBtn" onclick="clearText()">AC</button>
+                    <button class="btn showResultBtn" onclick="showResult()">&#61;</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+
